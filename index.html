@@ -1,8 +1,62 @@
-<html>
-   <head>
-   <title> Мой Проект</title>
-   </head>
-   <body>
-    <h1>Тут будет мой веб проект</h1> 
-   </body>
-</html>
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="канадский карикатурист">
+        <meta name="description" content="Брайан Ли О'Мелли известный благодаря своим комиксам канадским карикатурист">
+        <title>Брайан Ли О'Мэлли</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="activateNavigationSection.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="main-header">
+                Брайан Ли О'Мэлли
+            </h1>
+            <nav class="header_navigation">
+                <div id="navbarContent">
+                    <a href="index.html"> Главная страница </a>
+                    <a href="biography.html"> Биография </a>
+                    <a href="graphicNovels.html"> Графические романы </a>
+                    <a href="discography.html"> Дискография </a>
+                    <a href="comment.html"> Комментарии </a>
+                    <a href="fetch.html"> Комментарии от писателей </a>
+                    <a href="slaider.html"> Слайдер </a>
+                </div>
+                <script>shineLinks("navbarContent")</script>
+            </nav>
+        </header>
+
+        <main>
+            <article class="article">
+                <h2 class="article__header"> Причина создания  </h2>
+                <p class="article__paragraph"> Брайн очень талантливый человек, но к сожалению, он так и не смог добиться массовой популярности.
+                Из-за чего многие люди не знают и о половине его работ.</p>
+            </article>
+            <section class="main-sect">
+                <h2 class="main-sect__header">
+                    О чем этот сайт?
+                </h2>
+
+                <p class="section__paragraph"> Сайт посвящен жизни и творчеству канадского карикатуриста, музыканта и сценариста.</p>
+                <ul class="section__ul">
+                    Конкретно, рассмотрим мы следующие его графические романы и сборники коротких рассказов:
+                    <li> "Потерянная в море" </li>
+                    <img class="section__ul_img" src="C:\Users\User\Downloads\web\my-web-project\docs\cover.jpg" height="800" width="600">
+                    <li> Серия "Скотт Пилгрим" </li>
+                    <img class="section__ul_img" src="C:\Users\User\Downloads\web\my-web-project\docs\ScottPilgrimsPreciousLittleLife.jpg" height="800" width="600">
+                    <li> "Шансы" </li>
+                    <img class="section__ul_img" src="C:\Users\User\Downloads\web\my-web-project\docs\Brajan_Li_Oampamp039Melli__Shansy.jpeg" height="800" width="600">
+                    <li> "Соплячка" </li>
+                    <img class="section__ul_img" src="C:\Users\User\Downloads\web\my-web-project\docs\6008227303.jpg" height="800" width="600">
+                </ul>
+            </section>
+        </main>
+
+        <footer class="footer">
+            Информация собрана и предоставлена админами сайта <br>
+            <script src="C:\Users\User\Downloads\web\my-web-project\lab4\PageLoadTime.js"></script>
+            <p id="timer"></p>
+        </footer>
+    </body>
+    </html>

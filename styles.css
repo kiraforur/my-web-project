@@ -1,0 +1,123 @@
+html {
+    font-size: 18px;
+    background-color: azure;
+    font-family: "Lucida Calligraphy", serif;
+}
+
+body {
+    position: absolute;
+    top: 10px;
+    background-color: #f4f8f2;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fdffd4;
+    padding: 20px;
+}
+
+
+
+.header_navigation {
+    background-color: #DEEDE1;
+    justify-content: left;
+    padding: 10px;
+    border: 3px solid #005C11;;
+    /*position: absolute;*/
+    margin-left: auto;
+}
+
+.main-header {
+    flex: 20;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+.article {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.article__header {
+    font-size: 35px;
+    text-align: center;
+    background-color: #DEEDE1;
+    text-transform: none;
+    margin: 20px 20px;
+    padding: 20px;
+}
+
+.article__paragraph {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.main-sect {
+    font-size: 20px;
+    text-align: center;
+    background-color: #fdffd4;
+}
+
+.main-header {
+    font-size: 35px;
+    text-align: center;
+    background-color: #fdffd4;
+    color: #103f06;
+    text-transform: none;
+}
+
+.section__paragraph {
+    font-size: 20px;
+    text-align: center;
+    background-color: #fdffd4;
+    color: #103f06;
+    text-transform: none;
+}
+
+.section__ul {
+    font-size: 20px;
+    text-align: center;
+    background-color: #fdffd4;
+    text-transform: none;
+    color: darkblue;
+}
+.footer {
+    font-weight: lighter;
+    text-align: right;
+    margin: 20px 20px 20px 20px;
+    background-color: #fdffd4;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+}
+
+.wrapper__item_odd{
+    background: azure;
+    padding: 8px 4px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.wrapper__item_even{
+    background: #fdffd4;
+    padding: 8px 4px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+@media screen and (max-width: 900px) {
+    .section__ul_img{
+        height: 400px;
+        width: 300px;
+    }
+
+}
+
+.active-desktop-link{
+    background: #fdffd4;
+}

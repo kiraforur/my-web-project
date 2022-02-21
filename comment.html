@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="канадский карикатурист">
+    <meta name="description" content="Брайан Ли О'Мелли известный благодаря своим комиксам канадским карикатурист">
+    <title>Брайан Ли О'Мэлли</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="activateNavigationSection.js"></script>
+</head>
+<body>
+<header class="header">
+    <h1 class="main-header">
+        Брайан Ли О'Мэлли
+    </h1>
+    <nav class="header_navigation">
+        <div id="navbarContent">
+            <a href="index.html"> Главная страница </a>
+            <a href="biography.html"> Биография </a>
+            <a href="graphicNovels.html"> Графические романы </a>
+            <a href="discography.html"> Дискография </a>
+            <a href="comment.html"> Комментарии </a>
+        </div>
+        <script>shineLinks("navbarContent")</script>
+    </nav>
+</header>
+
+<main>
+    <div >
+        <form onsubmit="return false;">
+            <div >
+                <label for="comment-name">Имя:</label>
+                <input  id="comment-name"  placeholder="Введите имя">
+            </div>
+            <div >
+                <label for="comment-body">Комментарий:</label>
+                <textarea id="comment-body" placeholder="Текст комментария"></textarea>
+            </div>
+            <div >
+                <button type="submit" id="comment-add">Добавьте комментарий</button>
+            </div>
+        </form>
+    </div>
+    <div id="showid" >
+    </div>
+    <button type="button" id="show">
+        Показать комментарии
+    </button>
+</main>
+
+<footer class="footer">
+    Информация собрана и предоставлена админами сайта <br>
+    <script src="C:\Users\User\Downloads\web\my-web-project\lab4\PageLoadTime.js"></script>
+    <p id="timer"></p>
+</footer>>
+<script src="comment.js"></script>
+</body>
+</html>
